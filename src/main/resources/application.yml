@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: reactive-mongo-api
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: reactive
+      username: root
+      password: root
+      authentication-database: admin
+server:
+  port: 9000
